@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    margin-top: 25px;
+    font-weight: 800;
+    font-size: 35px;
+    margin-left: 8%;
+}
+
+#enterTask{
+    margin-top: 2%;
+    margin-left: 8%;
+}
+
+#inputTask{
+  width: 500px;
+  height: 30px;
+  border-color: black;
+}
+
+#AddBtn{
+    width: 130px;
+    height: 36px;
+    background-color: rgb(7, 72, 126);
+    color: white;
+}
+
+#columnTasks{
+    display: flex;
+    flex-direction: row;
+}
+
+#toDo{
+    margin-left: 8%;
+    margin-right: 2%;
+    width: 15%;
+}
+
+#Doing{
+    margin-right: 2%;
+    width: 15%;
+}
+
+#Done{
+    margin-right: 2%;
+    width: 15%;
+}
+
+#title2{
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgb(20, 97, 160);
+    color: white;
+    border-color: rgb(13, 67, 110);
+    border-style: solid;
+
+}
+
+
+/*Components styles*/
+.bloqueTarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(170, 174, 192);
+    color: white;
+    border-radius: 3px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.nombreTareas{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10%;
+}
+
+.botonEliminar{
+    position: relative;
+    margin-top: -40px;
+    margin-left: 80%;
+    border-radius: 20px;
+    background-color: rgb(192, 33, 33);
+}
+
+.botonSubirRango{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 80%;
+    border-radius: 20px;
+    background-color: rgb(20, 20, 187);
+}
+
+.botonBajarRango{
+    position: relative;
+    margin-top: -21px;
+    margin-left: -80%;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 71);
+}
+

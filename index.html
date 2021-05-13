@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css\index.css">
+</head>
+<body>
+
+    <div id="title">
+        Global Solution SAS
+    </div>
+
+    <div id="enterTask">
+        <input id="inputTask" placeholder="Descripcion de tarea" type="text">
+        <button id="AddBtn"> Nueva tarea </button>
+    </div>
+        
+    
+    <div id="columnTasks">
+        <div id="toDo">
+        <h2 id="title2">To Do</h2>
+            <div id="taskContainer">
+                <!--Contenedor para las tareas, se llema con JS-->
+            </div> 
+        </div>
+    
+    <div id="Doing">
+        <h2 id="title2">Doing</h2>
+    
+    </div>
+    
+    <div id="Done">
+        <h2 id="title2">Done</h2>
+    
+    </div>
+    
+    
+    </div>
+</body>
+</html>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDSuQOZb_uJ4y0OTqBhhzN8fB_rojCf0ms",
+    authDomain: "quiz2-ecosistemas-50ec2.firebaseapp.com",
+    projectId: "quiz2-ecosistemas-50ec2",
+    storageBucket: "quiz2-ecosistemas-50ec2.appspot.com",
+    messagingSenderId: "987069838260",
+    appId: "1:987069838260:web:1498a0db060eb181dff8e1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="../components\task.js"></script>
+<script src="../js\index.js"></script>
